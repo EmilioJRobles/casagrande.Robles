@@ -25,7 +25,8 @@
     color: #099956;
     margin-bottom: 30px;
     font-style: italic;
-    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+      "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
   }
 
   .box-pictures {
@@ -35,7 +36,12 @@
 
   .container-pictures {
     background-color: rgba(30, 87, 30, 0.185);
-    background: linear-gradient(to bottom, #111111, #9c9c9c, rgba(231, 217, 216, 0.479));
+    background: linear-gradient(
+      to bottom,
+      #111111,
+      #9c9c9c,
+      rgba(231, 217, 216, 0.479)
+    );
     width: 90%;
     border-radius: 10px;
     display: flex;
@@ -144,7 +150,7 @@
     width: 90px;
   }
 
-  .box-menu li:hover>ul {
+  .box-menu li:hover > ul {
     display: block;
   }
 
@@ -185,7 +191,7 @@
     display: grid;
     grid-template-columns: 1fr 3fr;
     grid-row: auto;
-    grid-template-areas: "header header""titulos-principales titulos-principales""containerTest containerTest""imagen-grid imagen-grid""subtituloPrincipal subtituloPrincipal""footer footer";
+    grid-template-areas: "header header" "titulos-principales titulos-principales" "containerTest containerTest" "imagen-grid imagen-grid" "subtituloPrincipal subtituloPrincipal" "footer footer";
   }
 
   .logo {
@@ -237,7 +243,8 @@
     transform: translate(-50%, -50%);
     background: rgba(20, 97, 61, 0.829);
     padding: 35px 9px;
-    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+      "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
     border-radius: 50%;
     -webkit-animation: animacion 2s linear infinite;
     animation: animacion 2s linear infinite;
@@ -251,7 +258,8 @@
     }
 
     30% {
-      box-shadow: 0 0 0 50px rgba(20, 97, 61, 0), 0 0 0 50px rgba(20, 97, 61, 0.6);
+      box-shadow: 0 0 0 50px rgba(20, 97, 61, 0),
+        0 0 0 50px rgba(20, 97, 61, 0.6);
     }
 
     65% {
@@ -269,7 +277,8 @@
     }
 
     30% {
-      box-shadow: 0 0 0 50px rgba(20, 97, 61, 0), 0 0 0 50px rgba(20, 97, 61, 0.6);
+      box-shadow: 0 0 0 50px rgba(20, 97, 61, 0),
+        0 0 0 50px rgba(20, 97, 61, 0.6);
     }
 
     65% {
@@ -293,7 +302,12 @@
     background: #1a1a1a;
     padding: 1rem;
     grid-area: footer;
-    background: linear-gradient(to right, #111111, #9c9c9c, rgba(231, 217, 216, 0.479));
+    background: linear-gradient(
+      to right,
+      #111111,
+      #9c9c9c,
+      rgba(231, 217, 216, 0.479)
+    );
   }
 
   .whatsapp-app img {
@@ -310,7 +324,7 @@
     display: grid;
     grid-template-columns: 1fr 3fr;
     grid-template-rows: auto;
-    grid-template-areas: "logo logo""containerMenu containerMenu";
+    grid-template-areas: "logo logo" "containerMenu containerMenu";
     height: auto;
   }
 
@@ -325,7 +339,7 @@
     display: block;
   }
 
-  .box-menu>li {
+  .box-menu > li {
     margin-top: -12px;
   }
 
@@ -557,7 +571,8 @@
     color: #099956;
     margin-bottom: 30px;
     font-style: italic;
-    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+      "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
   }
 
   .box-pictures {
@@ -567,7 +582,12 @@
 
   .container-pictures {
     background-color: rgba(30, 87, 30, 0.185);
-    background: linear-gradient(to bottom, #111111, #9c9c9c, rgba(231, 217, 216, 0.479));
+    background: linear-gradient(
+      to bottom,
+      #111111,
+      #9c9c9c,
+      rgba(231, 217, 216, 0.479)
+    );
     width: 90%;
     border-radius: 10px;
     display: flex;
@@ -706,11 +726,11 @@
     width: 90px;
   }
 
-  .box-menu li:hover>ul {
+  .box-menu li:hover > ul {
     display: block;
   }
 
-  .box-menu>li {
+  .box-menu > li {
     margin-top: 16px;
   }
 
@@ -756,7 +776,7 @@
     display: grid;
     grid-template-columns: 1fr 3fr;
     grid-row: auto;
-    grid-template-areas: "header header""titulos-principales titulos-principales""containerTest containerTest""imagen-grid  imagen-grid""subtituloPrincipal subtituloPrincipal""footer footer";
+    grid-template-areas: "header header" "titulos-principales titulos-principales" "containerTest containerTest" "imagen-grid  imagen-grid" "subtituloPrincipal subtituloPrincipal" "footer footer";
   }
 
   header {
@@ -803,7 +823,8 @@
     transform: translate(-50%, -50%);
     background: rgba(20, 97, 61, 0.829);
     padding: 49px 22px;
-    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+      "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
     border-radius: 50%;
     -webkit-animation: animacion 2s linear infinite;
     animation: animacion 2s linear infinite;
@@ -817,7 +838,8 @@
     }
 
     30% {
-      box-shadow: 0 0 0 50px rgba(20, 97, 61, 0), 0 0 0 50px rgba(20, 97, 61, 0.6);
+      box-shadow: 0 0 0 50px rgba(20, 97, 61, 0),
+        0 0 0 50px rgba(20, 97, 61, 0.6);
     }
 
     65% {
@@ -835,7 +857,8 @@
     }
 
     30% {
-      box-shadow: 0 0 0 50px rgba(20, 97, 61, 0), 0 0 0 50px rgba(20, 97, 61, 0.6);
+      box-shadow: 0 0 0 50px rgba(20, 97, 61, 0),
+        0 0 0 50px rgba(20, 97, 61, 0.6);
     }
 
     65% {
@@ -859,7 +882,12 @@
     background: #1a1a1a;
     padding: 1rem;
     grid-area: footer;
-    background: linear-gradient(to right, #111111, #9c9c9c, rgba(231, 217, 216, 0.479));
+    background: linear-gradient(
+      to right,
+      #111111,
+      #9c9c9c,
+      rgba(231, 217, 216, 0.479)
+    );
   }
 
   .whatsapp-app img {
@@ -1086,7 +1114,8 @@
     color: #099956;
     margin-bottom: 30px;
     font-style: italic;
-    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+      "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
   }
 
   .box-pictures {
@@ -1096,7 +1125,12 @@
 
   .container-pictures {
     background-color: rgba(30, 87, 30, 0.185);
-    background: linear-gradient(to bottom, #111111, #9c9c9c, rgba(231, 217, 216, 0.479));
+    background: linear-gradient(
+      to bottom,
+      #111111,
+      #9c9c9c,
+      rgba(231, 217, 216, 0.479)
+    );
     width: 90%;
     border-radius: 10px;
     display: flex;
@@ -1233,11 +1267,11 @@
     width: 90px;
   }
 
-  .box-menu li:hover>ul {
+  .box-menu li:hover > ul {
     display: block;
   }
 
-  .box-menu>li {
+  .box-menu > li {
     margin-top: 16px;
   }
 
@@ -1274,7 +1308,7 @@
     display: grid;
     grid-template-columns: 1fr 3fr;
     grid-row: auto;
-    grid-template-areas: "header header""titulos-principales titulos-principales""containerTest containerTest""imagen-grid imagen-grid""subtituloPrincipal subtituloPrincipal""footer footer";
+    grid-template-areas: "header header" "titulos-principales titulos-principales" "containerTest containerTest" "imagen-grid imagen-grid" "subtituloPrincipal subtituloPrincipal" "footer footer";
   }
 
   header {
@@ -1330,7 +1364,8 @@
     transform: translate(-50%, -50%);
     background: rgba(20, 97, 61, 0.829);
     padding: 47px 11px;
-    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+      "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
     border-radius: 50%;
     -webkit-animation: animacion 2s linear infinite;
     animation: animacion 2s linear infinite;
@@ -1344,7 +1379,8 @@
     }
 
     30% {
-      box-shadow: 0 0 0 50px rgba(20, 97, 61, 0), 0 0 0 50px rgba(20, 97, 61, 0.6);
+      box-shadow: 0 0 0 50px rgba(20, 97, 61, 0),
+        0 0 0 50px rgba(20, 97, 61, 0.6);
     }
 
     65% {
@@ -1362,7 +1398,8 @@
     }
 
     30% {
-      box-shadow: 0 0 0 50px rgba(20, 97, 61, 0), 0 0 0 50px rgba(20, 97, 61, 0.6);
+      box-shadow: 0 0 0 50px rgba(20, 97, 61, 0),
+        0 0 0 50px rgba(20, 97, 61, 0.6);
     }
 
     65% {
@@ -1386,7 +1423,12 @@
     background: #1a1a1a;
     padding: 1rem;
     grid-area: footer;
-    background: linear-gradient(to right, #111111, #9c9c9c, rgba(231, 217, 216, 0.479));
+    background: linear-gradient(
+      to right,
+      #111111,
+      #9c9c9c,
+      rgba(231, 217, 216, 0.479)
+    );
   }
 
   .whatsapp-app img {
@@ -1580,4 +1622,3 @@
     background-color: #444444;
   }
 }
-
