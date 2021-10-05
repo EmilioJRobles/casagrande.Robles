@@ -4,7 +4,7 @@
     padding: 0%; }
   body {
     background-color: rgba(238, 235, 235, 0.986) !important;
-    margin: 20px !important; }
+    margin: 10px !important; }
   .titulo1 {
     text-align: center;
     font-family: sans-serif;
@@ -146,16 +146,6 @@
     border-radius: 100%; }
   .caja-logo {
     width: 100%; }
-  .box-menu li a:hover {
-    background: darkgray; }
-  .box-menu li ul {
-    display: none;
-    position: absolute;
-    width: 80px; }
-  .box-menu li:hover > ul {
-    display: block; }
-  ul {
-    list-style: none; }
   .titulo {
     text-align: center;
     font-family: sans-serif;
@@ -269,8 +259,40 @@
     font-family: Arial, Helvetica, sans-serif;
     width: 100%;
     background-color: #1a1a1a;
-    grid-area: containerMenu; }
+    grid-area: containerMenu;
+    height: 11rem; }
+  .box-menu-one {
+    margin-left: -2rem;
+    margin-top: -3px; }
+    .box-menu-one li a:hover {
+      background: darkgray; }
+    .box-menu-one li ul {
+      display: none;
+      position: absolute;
+      width: 110px; }
+    .box-menu-one li:hover > ul {
+      display: block; }
+  .box-menu li a:hover {
+    background: darkgray; }
+  .box-menu li ul {
+    display: none;
+    position: absolute;
+    width: 110px; }
+  .box-menu li:hover > ul {
+    display: block; }
+  ul {
+    list-style: none; }
+  ul.box-menu-one {
+    display: block; }
   ul.box-menu {
+    display: block; }
+  .box-menu-one > li {
+    margin-top: -12px; }
+  .box-menu-one li a {
+    background: #1a1a1a;
+    color: white;
+    text-decoration: none;
+    padding: 10px 15px;
     display: block; }
   .box-menu > li {
     margin-top: -12px; }
@@ -278,8 +300,11 @@
     background: #1a1a1a;
     color: white;
     text-decoration: none;
-    padding: 10px 15px;
+    padding: 13px 15px;
     display: block; }
+  .menuDesplegable {
+    margin-left: -2rem;
+    width: 7rem; }
   .box-contacto {
     width: 300px;
     margin: auto;
@@ -428,7 +453,9 @@
     .tarifas-tabla tbody tr:hover {
       background-color: rgba(102, 102, 102, 0.541); }
     .tarifas-tabla tbody td:hover {
-      background-color: #444444; } }
+      background-color: #444444; }
+  .error404 {
+    width: 100%; } }
 
 @media only screen and (min-width: 600px) and (max-width: 1023px) {
   * {
@@ -596,6 +623,31 @@
     border-radius: 100%; }
   .caja-logo {
     width: 100%; }
+  .box-menu-one {
+    display: grid;
+    grid-auto-flow: column;
+    margin-left: -2rem;
+    margin-top: -3px; }
+    .box-menu-one li a {
+      background: #1a1a1a;
+      color: white;
+      text-decoration: none;
+      padding: 10px 15px;
+      display: block;
+      width: 110px; }
+      .box-menu-one li a:hover {
+        background: darkgray; }
+    .box-menu-one li ul {
+      display: none;
+      position: absolute;
+      width: 90px; }
+    .box-menu-one li:hover > ul {
+      display: block; }
+    .box-menu-one > li {
+      margin-top: 16px; }
+  .menuDesplegable {
+    margin-left: -2rem;
+    width: 20rem; }
   .box-menu li a {
     background: #1a1a1a;
     color: white;
@@ -847,7 +899,9 @@
     .tarifas-tabla tbody tr:hover {
       background-color: rgba(102, 102, 102, 0.541); }
     .tarifas-tabla tbody td:hover {
-      background-color: #444444; } }
+      background-color: #444444; }
+  .error404 {
+    width: 100%; } }
 
 @media only screen and (min-width: 1024px) {
   * {
@@ -1013,6 +1067,31 @@
     width: 100%;
     display: flex;
     justify-content: space-between; }
+  .box-menu-one {
+    display: grid;
+    grid-auto-flow: column;
+    margin-left: -2rem;
+    margin-top: -3px; }
+    .box-menu-one li a {
+      background: #1a1a1a;
+      color: white;
+      text-decoration: none;
+      padding: 10px 15px;
+      display: block;
+      width: 110px; }
+      .box-menu-one li a:hover {
+        background: darkgray; }
+    .box-menu-one li ul {
+      display: none;
+      position: absolute;
+      width: 90px; }
+    .box-menu-one li:hover > ul {
+      display: block; }
+    .box-menu-one > li {
+      margin-top: 16px; }
+  .menuDesplegable {
+    margin-left: -2rem;
+    width: 20rem; }
   .box-menu li a {
     background: #1a1a1a;
     color: white;
@@ -1261,4 +1340,6 @@
   .direction {
     align-self: flex-end;
     font-size: 14px;
-    color: #3f3e3e; } }
+    color: #3f3e3e; }
+  .error404 {
+    width: 100%; } }
